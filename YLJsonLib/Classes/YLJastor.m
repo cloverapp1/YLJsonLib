@@ -34,9 +34,9 @@
     return [YLJastor yy_modelToJSONString];
 }
 
-- (NSString *)toDescription{
-    return [YLJastor yy_modelDescription];
-}
+//- (NSString *)toDescription{
+//    return [YLJastor yy_modelDescription];
+//}
 
 
 @end
