@@ -7,7 +7,7 @@
 
 #import "YLJastor.h"
 
-@interface YLJastor()<NSCoding>
+@interface YLJastor()
 
 @end
 
@@ -36,22 +36,6 @@
 
 - (NSString *)toDescription{
     return [YLJastor yy_modelDescription];
-}
-
-//+ (NSDictionary *)dictionaryWithClass:(Class)cls json:(id)json{
-//    return [NSDictionary yy_modelDictionaryWithClass:cls json:json];
-//}
-//
-//+ (NSArray *)arrayWithClass:(Class)cls json:(id)json{
-//    return [NSArray yy_modelArrayWithClass:cls json:json];
-//}
-
-- (void)encodeWithCoder:(nonnull NSCoder *)aCoder {
-    [YLJastor yy_modelEncodeWithCoder:aCoder];
-}
-
-- (nullable instancetype)initWithCoder:(nonnull NSCoder *)aDecoder {
-    return [YLJastor yy_modelInitWithCoder:aDecoder];
 }
 
 
