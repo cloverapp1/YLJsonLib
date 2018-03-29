@@ -31,12 +31,12 @@
 }
 
 - (NSString *)toJsonString{
-    return [YLJastor yy_modelToJSONString];
+    return [self yy_modelToJSONString];
 }
 
-//- (NSString *)toDescription{
-//    return [YLJastor yy_modelDescription];
-//}
+- (NSString *)toDescription{
+    return [self yy_modelDescription];
+}
 
 
 @end

@@ -20,7 +20,7 @@
 
 - (NSString *_Nullable)toJsonString;
 
-//- (NSString *_Nullable)toDescription;
+- (NSString *_Nullable)toDescription;
 
 
 @end
