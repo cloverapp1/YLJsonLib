@@ -14,13 +14,13 @@
 
 + (nullable instancetype)modelWithDictionary:(NSDictionary *)dictionary;
 
-- (id)initWithDictionary:(NSDictionary *)dictionary;
+- (id)initWithDictionary:(NSDictionary *_Nonnull)dictionary;
 
 - (id)initWithJson:(id)json;
 
-- (NSString *)toJsonString;
+- (NSString *_Nullable)toJsonString;
 
-- (NSString *)toDescription;
+- (NSString *_Nullable)toDescription;
 
 
 @end
