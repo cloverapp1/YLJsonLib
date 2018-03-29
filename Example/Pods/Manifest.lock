@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YLJsonLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YLJsonLib (from `../`)
+
+EXTERNAL SOURCES:
+  YLJsonLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YLJsonLib: 5a6914f820175beb8db624763640dd6fc71c70fc
+
+PODFILE CHECKSUM: a1450a2b61a5fb4e20893f0377c6d153642ed9e7
+
+COCOAPODS: 1.4.0
