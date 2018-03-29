@@ -14,11 +14,11 @@
 @implementation YLJastor
 
 + (instancetype)modelWithJSON:(id)json{
-    return [YLJastor yy_modelWithJSON:json];
+    return [super yy_modelWithJSON:json];
 }
 
 + (instancetype)modelWithDictionary:(NSDictionary *)dictionary{
-    return [YLJastor yy_modelWithDictionary:dictionary];
+    return [super yy_modelWithDictionary:dictionary];
 }
 
 
@@ -38,19 +38,20 @@
     return [YLJastor yy_modelDescription];
 }
 
-+ (NSDictionary *)dictionaryWithClass:(Class)cls json:(id)json{
-    return [NSDictionary yy_modelDictionaryWithClass:cls json:json];
-}
-
-+ (NSArray *)arrayWithClass:(Class)cls json:(id)json{
-    return [NSArray yy_modelArrayWithClass:cls json:json];
-}
+//+ (NSDictionary *)dictionaryWithClass:(Class)cls json:(id)json{
+//    return [NSDictionary yy_modelDictionaryWithClass:cls json:json];
+//}
+//
+//+ (NSArray *)arrayWithClass:(Class)cls json:(id)json{
+//    return [NSArray yy_modelArrayWithClass:cls json:json];
+//}
 
 - (void)encodeWithCoder:(nonnull NSCoder *)aCoder {
     [YLJastor yy_modelEncodeWithCoder:aCoder];
 }
 
 - (nullable instancetype)initWithCoder:(nonnull NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
     return [YLJastor yy_modelInitWithCoder:aDecoder];
 }
 
