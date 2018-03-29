@@ -51,7 +51,6 @@
 }
 
 - (nullable instancetype)initWithCoder:(nonnull NSCoder *)aDecoder {
-    self = [super initWithCoder:aDecoder];
     return [YLJastor yy_modelInitWithCoder:aDecoder];
 }
 

@@ -22,8 +22,5 @@
 
 - (NSString *)toDescription;
 
-//+ (NSDictionary *)dictionaryWithClass:(Class)cls json:(id)json;
-//
-//+ (NSArray *)arrayWithClass:(Class)cls json:(id)json;
 
 @end
