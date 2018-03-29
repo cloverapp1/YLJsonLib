@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "YLJastor.h"
+#import "NSObject+YYModel.h"
+#import "YYClassInfo.h"
+#import "YYModel.h"
 
 FOUNDATION_EXPORT double YLJsonLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char YLJsonLibVersionString[];

@@ -9,35 +9,27 @@
 /* Begin PBXBuildFile section */
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		15896F038700C129B29A8C8F4B9D7769 /* YLJsonLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4725769CC07EEDA7EE8D7B03363FF5B /* YLJsonLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3274EA20626AEDDFBB596704D22A3B /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3ED9243BD226B56425510919200FE8 /* YYClassInfo.m */; };
+		176D6BFC71798CFB99735983A7CB8D19 /* YLJsonLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 805974A249FB9326F4DE6CDAFAED4817 /* YLJsonLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		189FD34CDF3632C503866FA5C80C1BF2 /* YLJastor.h in Headers */ = {isa = PBXBuildFile; fileRef = 451C3EECE9BFED1F7D5D90ECB1FD2F67 /* YLJastor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		257C3E4ECE07EBA3E3D033A6CD3985DC /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 37994CF284CC365101FB426CD0D71358 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350176AA7D1FA7C893057FB993EC29F7 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8539F5C2B7DFEFFE4A8D6946409110 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		359E21EFFB0FB8A67682FEC80B2CAE38 /* Pods-YLJsonLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B90C7BB48342FE0F46B53544B3416F64 /* Pods-YLJsonLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4BFDBA9344F1B730CD3BA6AF131D990A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		574B1588256462D0DD4BCF9929131AFC /* Pods-YLJsonLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFBA96A33C17E28854FC47968D16F39 /* Pods-YLJsonLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A18CE840B9844BE961AD8873115534D /* YLJsonLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A7FF860B02D08095B326A48DF27854 /* YLJsonLib-dummy.m */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		6EAC8C49320D6D0295DAEEFCF8ADA68C /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7792D9C98CB67DAE2A3C39B109769 /* NSObject+YYModel.m */; };
 		6FEA9BF6402C6DDA5E9428E417AE12A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
 		8B16423DDFEFC3148D48C83AB61DDB7C /* Pods-YLJsonLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C816D3AB7AE081BC96C65A983B73A0 /* Pods-YLJsonLib_Tests-dummy.m */; };
-		8F05FF1A206C8D1A0051B0D4 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05FF15206C8D1A0051B0D4 /* NSObject+YYModel.h */; };
-		8F05FF1B206C8D1A0051B0D4 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05FF15206C8D1A0051B0D4 /* NSObject+YYModel.h */; };
-		8F05FF1C206C8D1A0051B0D4 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05FF16206C8D1A0051B0D4 /* NSObject+YYModel.m */; };
-		8F05FF1D206C8D1A0051B0D4 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05FF16206C8D1A0051B0D4 /* NSObject+YYModel.m */; };
-		8F05FF1E206C8D1A0051B0D4 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05FF17206C8D1A0051B0D4 /* YYClassInfo.h */; };
-		8F05FF1F206C8D1A0051B0D4 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05FF17206C8D1A0051B0D4 /* YYClassInfo.h */; };
-		8F05FF20206C8D1A0051B0D4 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05FF18206C8D1A0051B0D4 /* YYClassInfo.m */; };
-		8F05FF21206C8D1A0051B0D4 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05FF18206C8D1A0051B0D4 /* YYClassInfo.m */; };
-		8F05FF22206C8D1A0051B0D4 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05FF19206C8D1A0051B0D4 /* YYModel.h */; };
-		8F05FF23206C8D1A0051B0D4 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05FF19206C8D1A0051B0D4 /* YYModel.h */; };
-		8F05FF26206C8D630051B0D4 /* YLJastor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05FF24206C8D630051B0D4 /* YLJastor.h */; };
-		8F05FF27206C8D630051B0D4 /* YLJastor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05FF24206C8D630051B0D4 /* YLJastor.h */; };
-		8F05FF28206C8D630051B0D4 /* YLJastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05FF25206C8D630051B0D4 /* YLJastor.m */; };
-		8F05FF29206C8D630051B0D4 /* YLJastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05FF25206C8D630051B0D4 /* YLJastor.m */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
@@ -47,10 +39,11 @@
 		BCA3A96B83544ABA049F1EAECF071E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C80B38239F25359D88E2F832D0E4D075 /* YLJsonLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B443485AAD0ABE525818F0263DC3CE23 /* YLJsonLib-dummy.m */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D24B4E87BA6487D9D9CA6A047E47F4C9 /* YLJastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB8EAC921A0E490B5F506D87567BADD /* YLJastor.m */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		F9C5A5FFD530BEC5C94B598CAEAF7868 /* Pods-YLJsonLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 914D2A1C7C98F72F9235B9441EB1C650 /* Pods-YLJsonLib_Example-dummy.m */; };
+		FC0F683C539E52C5D07F2CBA2D864D6B /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9457A169735A6C3BD6A33A36990C1390 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,61 +68,59 @@
 		06B7C851AA6D915C5BBC4662280C26C7 /* Pods-YLJsonLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLJsonLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		072831CD028ACABEB8BF45E1B126B7DD /* Pods-YLJsonLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLJsonLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		0B29A45D39AD9DE5635763339A51D9E6 /* YLJsonLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLJsonLib.modulemap; sourceTree = "<group>"; };
 		0CFF4ACC2284DDAAA41F57A30D94C977 /* Pods-YLJsonLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLJsonLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		14C816D3AB7AE081BC96C65A983B73A0 /* Pods-YLJsonLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLJsonLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		1B2BADA9B092B152BF7B06E47B4E4E0B /* Pods-YLJsonLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLJsonLib_Tests-resources.sh"; sourceTree = "<group>"; };
-		274E2FB720E39F40CBFE84588E0139D8 /* Pods_YLJsonLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLJsonLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28F2FC3958BB205FCDA5D18E498D44BA /* YLJsonLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLJsonLib.xcconfig; sourceTree = "<group>"; };
+		274E2FB720E39F40CBFE84588E0139D8 /* Pods_YLJsonLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLJsonLib_Example.framework; path = "Pods-YLJsonLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB7792D9C98CB67DAE2A3C39B109769 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		310D5099A700C83190E02D9206B0965C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37994CF284CC365101FB426CD0D71358 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		451C3EECE9BFED1F7D5D90ECB1FD2F67 /* YLJastor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLJastor.h; path = YLJsonLib/Classes/YLJastor.h; sourceTree = "<group>"; };
+		46A7FF860B02D08095B326A48DF27854 /* YLJsonLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLJsonLib-dummy.m"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		4AF20B15053B6805C43001117B0F48E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		551F21BED7C49241D0CB0724049A82F3 /* Pods_YLJsonLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLJsonLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8539F5C2B7DFEFFE4A8D6946409110 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		551F21BED7C49241D0CB0724049A82F3 /* Pods_YLJsonLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLJsonLib_Tests.framework; path = "Pods-YLJsonLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		65D142F5D27AF6E3BEB4544DF1A4FC9D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D142F5D27AF6E3BEB4544DF1A4FC9D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DB97779AD9551866DEE041EAF0EA20C /* Pods-YLJsonLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLJsonLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		726BA28879CB2BA2B64EDC095CCDA0F6 /* YLJsonLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLJsonLib.xcconfig; sourceTree = "<group>"; };
+		7AB8EAC921A0E490B5F506D87567BADD /* YLJastor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLJastor.m; path = YLJsonLib/Classes/YLJastor.m; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		805974A249FB9326F4DE6CDAFAED4817 /* YLJsonLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLJsonLib-umbrella.h"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8BB80894FE5250E540A4916F7AAA352F /* Pods-YLJsonLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLJsonLib_Example.modulemap"; sourceTree = "<group>"; };
+		8BDD263C7AE8890CDED154A0B1BED7B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C2EFBFAC2435AFBEE274E67F252E0C5 /* Pods-YLJsonLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLJsonLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8DFCF301724E904C7C4B973C6F87EEB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F05FF15206C8D1A0051B0D4 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
-		8F05FF16206C8D1A0051B0D4 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
-		8F05FF17206C8D1A0051B0D4 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
-		8F05FF18206C8D1A0051B0D4 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
-		8F05FF19206C8D1A0051B0D4 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
-		8F05FF24206C8D630051B0D4 /* YLJastor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YLJastor.h; path = ../YLJastor.h; sourceTree = "<group>"; };
-		8F05FF25206C8D630051B0D4 /* YLJastor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YLJastor.m; path = ../YLJastor.m; sourceTree = "<group>"; };
 		914D2A1C7C98F72F9235B9441EB1C650 /* Pods-YLJsonLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLJsonLib_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A76EB98C75F31CD39E38491C11E6ED5 /* YLJsonLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YLJsonLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9457A169735A6C3BD6A33A36990C1390 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		9AB2CDF6B929173D4424DF98CA015864 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF39981DDA60C81E95A4B506A459326 /* Pods-YLJsonLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLJsonLib_Example-resources.sh"; sourceTree = "<group>"; };
 		9EA184576AC1CD8C71D64E9D6C109C7D /* Pods-YLJsonLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLJsonLib_Tests.modulemap"; sourceTree = "<group>"; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A3CA6AB5EB0CD639C72452BB7632106D /* YLJsonLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLJsonLib.modulemap; sourceTree = "<group>"; };
-		A4725769CC07EEDA7EE8D7B03363FF5B /* YLJsonLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLJsonLib-umbrella.h"; sourceTree = "<group>"; };
-		A9DF1EE1455CEC951B0D6F84855EB3CF /* YLJsonLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLJsonLib-prefix.pch"; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B0ADA4B14A894A2CC18BD23E76FF76FA /* YLJsonLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YLJsonLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B443485AAD0ABE525818F0263DC3CE23 /* YLJsonLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLJsonLib-dummy.m"; sourceTree = "<group>"; };
+		B0ADA4B14A894A2CC18BD23E76FF76FA /* YLJsonLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLJsonLib.framework; path = YLJsonLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90C7BB48342FE0F46B53544B3416F64 /* Pods-YLJsonLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLJsonLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BA6D2A92982EE329CFCC22061C77DA2D /* Pods-YLJsonLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLJsonLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C4647979F2D3452CBB70849BA7112D27 /* Pods-YLJsonLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLJsonLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C495C0E4A600575DE0C79F65B7A413CE /* YLJsonLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLJsonLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C558660802DCBB02C21E69649B382EF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDD840765BC1902C89CF4B0594FD5E47 /* Pods-YLJsonLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLJsonLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D787A0FEF7940C239DFF02FBAA58A7DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4061929B212AF73FCEDAAD2BAC93B81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D94333606E99E874DDD221E93EC54EC4 /* Pods-YLJsonLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLJsonLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DBFBA96A33C17E28854FC47968D16F39 /* Pods-YLJsonLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLJsonLib_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -137,6 +128,8 @@
 		ECE356697A1FB225EABB6E5239C2ED8B /* Pods-YLJsonLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLJsonLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		FDF198218A58C8E6ECDE91EA08461FF1 /* YLJsonLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLJsonLib-prefix.pch"; sourceTree = "<group>"; };
+		FF3ED9243BD226B56425510919200FE8 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +171,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		003E449D8DEDCC2AF82C111183AFB6D5 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				37994CF284CC365101FB426CD0D71358 /* NSObject+YYModel.h */,
+				2CB7792D9C98CB67DAE2A3C39B109769 /* NSObject+YYModel.m */,
+				4A8539F5C2B7DFEFFE4A8D6946409110 /* YYClassInfo.h */,
+				FF3ED9243BD226B56425510919200FE8 /* YYClassInfo.m */,
+				9457A169735A6C3BD6A33A36990C1390 /* YYModel.h */,
+			);
+			name = YYModel;
+			path = YLJsonLib/Classes/YYModel;
+			sourceTree = "<group>";
+		};
+		0225F3CDA2780DABF3B5543ECEFF0967 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C558660802DCBB02C21E69649B382EF8 /* LICENSE */,
+				D4061929B212AF73FCEDAAD2BAC93B81 /* README.md */,
+				C495C0E4A600575DE0C79F65B7A413CE /* YLJsonLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +209,7 @@
 				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -210,17 +227,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		38DC7007BDA9A7570E4B109FE70F1DE3 /* YLJsonLib */ = {
-			isa = PBXGroup;
-			children = (
-				8F05FF14206C8D190051B0D4 /* YYModel */,
-				9C2420F0D0FE71290F22DC5C476C4181 /* Pod */,
-				4284463F12AD656629544EFED9FFD95A /* Support Files */,
-			);
-			name = YLJsonLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		3DAB76147FFCEB23EA885B402DD5C8A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,25 +238,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4284463F12AD656629544EFED9FFD95A /* Support Files */ = {
+		56E1C259097E8ADDBDC6073166749E28 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8DFCF301724E904C7C4B973C6F87EEB6 /* Info.plist */,
-				A3CA6AB5EB0CD639C72452BB7632106D /* YLJsonLib.modulemap */,
-				28F2FC3958BB205FCDA5D18E498D44BA /* YLJsonLib.xcconfig */,
-				B443485AAD0ABE525818F0263DC3CE23 /* YLJsonLib-dummy.m */,
-				A9DF1EE1455CEC951B0D6F84855EB3CF /* YLJsonLib-prefix.pch */,
-				A4725769CC07EEDA7EE8D7B03363FF5B /* YLJsonLib-umbrella.h */,
+				8BDD263C7AE8890CDED154A0B1BED7B6 /* Info.plist */,
+				0B29A45D39AD9DE5635763339A51D9E6 /* YLJsonLib.modulemap */,
+				726BA28879CB2BA2B64EDC095CCDA0F6 /* YLJsonLib.xcconfig */,
+				46A7FF860B02D08095B326A48DF27854 /* YLJsonLib-dummy.m */,
+				FDF198218A58C8E6ECDE91EA08461FF1 /* YLJsonLib-prefix.pch */,
+				805974A249FB9326F4DE6CDAFAED4817 /* YLJsonLib-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YLJsonLib";
+			sourceTree = "<group>";
+		};
+		72FAF01D3C846506C717ED4C1BAEB61A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6719869B91956A18E62878C5F55EF25 /* YLJsonLib */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DB09CF510A328199F13042CDCCDB4DE8 /* Development Pods */,
+				72FAF01D3C846506C717ED4C1BAEB61A /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				3DAB76147FFCEB23EA885B402DD5C8A8 /* Products */,
@@ -287,37 +301,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8F05FF14206C8D190051B0D4 /* YYModel */ = {
-			isa = PBXGroup;
-			children = (
-				8F05FF15206C8D1A0051B0D4 /* NSObject+YYModel.h */,
-				8F05FF16206C8D1A0051B0D4 /* NSObject+YYModel.m */,
-				8F05FF17206C8D1A0051B0D4 /* YYClassInfo.h */,
-				8F05FF18206C8D1A0051B0D4 /* YYClassInfo.m */,
-				8F05FF19206C8D1A0051B0D4 /* YYModel.h */,
-				8F05FF24206C8D630051B0D4 /* YLJastor.h */,
-				8F05FF25206C8D630051B0D4 /* YLJastor.m */,
-			);
-			name = YYModel;
-			path = YLJsonLib/Classes/YYModel;
-			sourceTree = "<group>";
-		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		9C2420F0D0FE71290F22DC5C476C4181 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4AF20B15053B6805C43001117B0F48E8 /* LICENSE */,
-				D787A0FEF7940C239DFF02FBAA58A7DE /* README.md */,
-				9A76EB98C75F31CD39E38491C11E6ED5 /* YLJsonLib.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		AC89F31EF7C1906AD440A341624E6120 /* Pods-YLJsonLib_Example */ = {
@@ -338,6 +327,19 @@
 			path = "Target Support Files/Pods-YLJsonLib_Example";
 			sourceTree = "<group>";
 		};
+		C6719869B91956A18E62878C5F55EF25 /* YLJsonLib */ = {
+			isa = PBXGroup;
+			children = (
+				451C3EECE9BFED1F7D5D90ECB1FD2F67 /* YLJastor.h */,
+				7AB8EAC921A0E490B5F506D87567BADD /* YLJastor.m */,
+				0225F3CDA2780DABF3B5543ECEFF0967 /* Pod */,
+				56E1C259097E8ADDBDC6073166749E28 /* Support Files */,
+				003E449D8DEDCC2AF82C111183AFB6D5 /* YYModel */,
+			);
+			name = YLJsonLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		D7228D8B8C58174B6DBC29982A25660C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,14 +347,6 @@
 				817C80B74E79597BAED93831B915DD58 /* Pods-YLJsonLib_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		DB09CF510A328199F13042CDCCDB4DE8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				38DC7007BDA9A7570E4B109FE70F1DE3 /* YLJsonLib */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -387,15 +381,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6634E723CAB54E02BAB7F1632B4F7485 /* Headers */ = {
+		6CB1E640B25B125760EE8F96BE9215B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F05FF1B206C8D1A0051B0D4 /* NSObject+YYModel.h in Headers */,
-				8F05FF1F206C8D1A0051B0D4 /* YYClassInfo.h in Headers */,
-				8F05FF27206C8D630051B0D4 /* YLJastor.h in Headers */,
-				8F05FF23206C8D1A0051B0D4 /* YYModel.h in Headers */,
-				15896F038700C129B29A8C8F4B9D7769 /* YLJsonLib-umbrella.h in Headers */,
+				257C3E4ECE07EBA3E3D033A6CD3985DC /* NSObject+YYModel.h in Headers */,
+				189FD34CDF3632C503866FA5C80C1BF2 /* YLJastor.h in Headers */,
+				176D6BFC71798CFB99735983A7CB8D19 /* YLJsonLib-umbrella.h in Headers */,
+				350176AA7D1FA7C893057FB993EC29F7 /* YYClassInfo.h in Headers */,
+				FC0F683C539E52C5D07F2CBA2D864D6B /* YYModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,10 +420,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F05FF1A206C8D1A0051B0D4 /* NSObject+YYModel.h in Headers */,
-				8F05FF1E206C8D1A0051B0D4 /* YYClassInfo.h in Headers */,
-				8F05FF26206C8D630051B0D4 /* YLJastor.h in Headers */,
-				8F05FF22206C8D1A0051B0D4 /* YYModel.h in Headers */,
 				574B1588256462D0DD4BCF9929131AFC /* Pods-YLJsonLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,9 +449,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F547BE24B01C98815E7A6F1917BCB3B4 /* Build configuration list for PBXNativeTarget "YLJsonLib" */;
 			buildPhases = (
-				AAD5240215FC45317A840E657922DC6F /* Sources */,
+				6AEF70E4574729C17335FA26A92CF274 /* Sources */,
 				8089A764E3EFBEA13897EAD8740804EC /* Frameworks */,
-				6634E723CAB54E02BAB7F1632B4F7485 /* Headers */,
+				6CB1E640B25B125760EE8F96BE9215B6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -537,25 +527,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6AEF70E4574729C17335FA26A92CF274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAC8C49320D6D0295DAEEFCF8ADA68C /* NSObject+YYModel.m in Sources */,
+				D24B4E87BA6487D9D9CA6A047E47F4C9 /* YLJastor.m in Sources */,
+				5A18CE840B9844BE961AD8873115534D /* YLJsonLib-dummy.m in Sources */,
+				0F3274EA20626AEDDFBB596704D22A3B /* YYClassInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84F71D1B9734F998F58F02A7DCB50F97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F9C5A5FFD530BEC5C94B598CAEAF7868 /* Pods-YLJsonLib_Example-dummy.m in Sources */,
-				8F05FF28206C8D630051B0D4 /* YLJastor.m in Sources */,
-				8F05FF20206C8D1A0051B0D4 /* YYClassInfo.m in Sources */,
-				8F05FF1C206C8D1A0051B0D4 /* NSObject+YYModel.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAD5240215FC45317A840E657922DC6F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F05FF21206C8D1A0051B0D4 /* YYClassInfo.m in Sources */,
-				8F05FF29206C8D630051B0D4 /* YLJastor.m in Sources */,
-				8F05FF1D206C8D1A0051B0D4 /* NSObject+YYModel.m in Sources */,
-				C80B38239F25359D88E2F832D0E4D075 /* YLJsonLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,9 +588,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FF0A562FA093791419A0432AFC9C453 /* Release */ = {
+		240C56907F5AA75AF53194B5BB1BEDC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4647979F2D3452CBB70849BA7112D27 /* Pods-YLJsonLib_Example.release.xcconfig */;
+			baseConfigurationReference = 072831CD028ACABEB8BF45E1B126B7DD /* Pods-YLJsonLib_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -616,7 +603,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-YLJsonLib_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YLJsonLib_Example/Pods-YLJsonLib_Example.modulemap";
@@ -628,13 +615,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		2A905236E72E19E3D724FC632E0B4A71 /* Debug */ = {
+		26BCD93C7870EEAB4CAE1BF9FDCF1FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D94333606E99E874DDD221E93EC54EC4 /* Pods-YLJsonLib_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -649,7 +635,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-YLJsonLib_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YLJsonLib_Tests/Pods-YLJsonLib_Tests.modulemap";
@@ -668,104 +654,9 @@
 			};
 			name = Debug;
 		};
-		4100AAC46B2D27E8109E9521D610887A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 072831CD028ACABEB8BF45E1B126B7DD /* Pods-YLJsonLib_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YLJsonLib_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YLJsonLib_Example/Pods-YLJsonLib_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YLJsonLib_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
 		55E19DBE9C0CD4F0264FDDC70DF31880 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F2FC3958BB205FCDA5D18E498D44BA /* YLJsonLib.xcconfig */;
+			baseConfigurationReference = 726BA28879CB2BA2B64EDC095CCDA0F6 /* YLJsonLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -793,67 +684,42 @@
 			};
 			name = Release;
 		};
-		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+		6C94E56376239FB2F67C8138CFE25700 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4647979F2D3452CBB70849BA7112D27 /* Pods-YLJsonLib_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YLJsonLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YLJsonLib_Example/Pods-YLJsonLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YLJsonLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		A6F8375F5E598A1C1BA643B82E5A2637 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F2FC3958BB205FCDA5D18E498D44BA /* YLJsonLib.xcconfig */;
+			baseConfigurationReference = 726BA28879CB2BA2B64EDC095CCDA0F6 /* YLJsonLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -911,6 +777,69 @@
 			};
 			name = Release;
 		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
 		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
@@ -941,7 +870,65 @@
 			};
 			name = Debug;
 		};
-		F618C1A53E5D34EC2B3959641965BD6C /* Release */ = {
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EB82B346CFD86D15D090381D4FA37A6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06B7C851AA6D915C5BBC4662280C26C7 /* Pods-YLJsonLib_Tests.release.xcconfig */;
 			buildSettings = {
@@ -956,7 +943,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-YLJsonLib_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YLJsonLib_Tests/Pods-YLJsonLib_Tests.modulemap";
@@ -981,8 +968,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
-				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -990,8 +977,8 @@
 		B6E0DDC3B344682E9C975BBED19DF34F /* Build configuration list for PBXNativeTarget "Pods-YLJsonLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4100AAC46B2D27E8109E9521D610887A /* Debug */,
-				0FF0A562FA093791419A0432AFC9C453 /* Release */,
+				240C56907F5AA75AF53194B5BB1BEDC1 /* Debug */,
+				6C94E56376239FB2F67C8138CFE25700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1017,8 +1004,8 @@
 		FAFB45D318F4D17BF223AEB4AFB24B76 /* Build configuration list for PBXNativeTarget "Pods-YLJsonLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A905236E72E19E3D724FC632E0B4A71 /* Debug */,
-				F618C1A53E5D34EC2B3959641965BD6C /* Release */,
+				26BCD93C7870EEAB4CAE1BF9FDCF1FE1 /* Debug */,
+				EB82B346CFD86D15D090381D4FA37A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,18 +1,18 @@
 {
   "name": "YLJsonLib",
   "version": "0.1.0",
-  "summary": "A short description of YLJsonLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/2510479687@qq.com/YLJsonLib",
+  "summary": "A json lib.",
+  "description": "A json lib of my.",
+  "homepage": "https://github.com/cloverapp1/YLJsonLib.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "2510479687@qq.com": "2510479687@qq.com"
+    "cloverapp1": "2510479687@qq.com"
   },
   "source": {
-    "git": "https://github.com/2510479687@qq.com/YLJsonLib.git",
+    "git": "https://github.com/cloverapp1/YLJsonLib.git",
     "tag": "0.1.0"
   },
   "platforms": {

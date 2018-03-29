@@ -8,7 +8,11 @@
 #import <Foundation/Foundation.h>
 #import "YYModel.h"
 
-@interface YLJastor : NSObject
+@interface YLJastor : NSObject<YYModel>
+
++ (nullable instancetype)modelWithJSON:(id)json;
+
++ (nullable instancetype)modelWithDictionary:(NSDictionary *)dictionary;
 
 - (id)initWithDictionary:(NSDictionary *)dictionary;
 
@@ -21,9 +25,5 @@
 + (NSDictionary *)dictionaryWithClass:(Class)cls json:(id)json;
 
 + (NSArray *)arrayWithClass:(Class)cls json:(id)json;
-
-+ (NSDictionary *)customPropertyMapper;
-
-+ (NSDictionary *)containerPropertyGenericClass;
 
 @end

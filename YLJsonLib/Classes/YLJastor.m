@@ -7,11 +7,20 @@
 
 #import "YLJastor.h"
 
-@interface YLJastor()<YYModel,NSCoding>
+@interface YLJastor()<NSCoding>
 
 @end
 
 @implementation YLJastor
+
++ (instancetype)modelWithJSON:(id)json{
+    return [YLJastor yy_modelWithJSON:json];
+}
+
++ (instancetype)modelWithDictionary:(NSDictionary *)dictionary{
+    return [YLJastor yy_modelWithDictionary:dictionary];
+}
+
 
 - (id)initWithDictionary:(NSDictionary *)dictionary{
     return [YLJastor yy_modelWithDictionary:dictionary];
@@ -35,14 +44,6 @@
 
 + (NSArray *)arrayWithClass:(Class)cls json:(id)json{
     return [NSArray yy_modelArrayWithClass:cls json:json];
-}
-
-+ (NSDictionary *)customPropertyMapper{
-    return [YLJastor modelCustomPropertyMapper];
-}
-
-+ (NSDictionary *)containerPropertyGenericClass{
-    return [YLJastor modelContainerPropertyGenericClass];
 }
 
 - (void)encodeWithCoder:(nonnull NSCoder *)aCoder {
