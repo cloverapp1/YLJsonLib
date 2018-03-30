@@ -30,6 +30,7 @@
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
 		8B16423DDFEFC3148D48C83AB61DDB7C /* Pods-YLJsonLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C816D3AB7AE081BC96C65A983B73A0 /* Pods-YLJsonLib_Tests-dummy.m */; };
+		8F05FF3F206DD4840051B0D4 /* YLJsonLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05FF3E206DD4840051B0D4 /* YLJsonLib.h */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
@@ -73,7 +74,7 @@
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		14C816D3AB7AE081BC96C65A983B73A0 /* Pods-YLJsonLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLJsonLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		1B2BADA9B092B152BF7B06E47B4E4E0B /* Pods-YLJsonLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLJsonLib_Tests-resources.sh"; sourceTree = "<group>"; };
-		274E2FB720E39F40CBFE84588E0139D8 /* Pods_YLJsonLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLJsonLib_Example.framework; path = "Pods-YLJsonLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274E2FB720E39F40CBFE84588E0139D8 /* Pods_YLJsonLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLJsonLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB7792D9C98CB67DAE2A3C39B109769 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		310D5099A700C83190E02D9206B0965C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,9 +88,9 @@
 		46A7FF860B02D08095B326A48DF27854 /* YLJsonLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLJsonLib-dummy.m"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		4A8539F5C2B7DFEFFE4A8D6946409110 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
-		551F21BED7C49241D0CB0724049A82F3 /* Pods_YLJsonLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLJsonLib_Tests.framework; path = "Pods-YLJsonLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551F21BED7C49241D0CB0724049A82F3 /* Pods_YLJsonLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLJsonLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		65D142F5D27AF6E3BEB4544DF1A4FC9D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D142F5D27AF6E3BEB4544DF1A4FC9D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DB97779AD9551866DEE041EAF0EA20C /* Pods-YLJsonLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLJsonLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		726BA28879CB2BA2B64EDC095CCDA0F6 /* YLJsonLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLJsonLib.xcconfig; sourceTree = "<group>"; };
@@ -101,8 +102,9 @@
 		8BB80894FE5250E540A4916F7AAA352F /* Pods-YLJsonLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLJsonLib_Example.modulemap"; sourceTree = "<group>"; };
 		8BDD263C7AE8890CDED154A0B1BED7B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C2EFBFAC2435AFBEE274E67F252E0C5 /* Pods-YLJsonLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLJsonLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F05FF3E206DD4840051B0D4 /* YLJsonLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLJsonLib.h; sourceTree = "<group>"; };
 		914D2A1C7C98F72F9235B9441EB1C650 /* Pods-YLJsonLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLJsonLib_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9457A169735A6C3BD6A33A36990C1390 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		9AB2CDF6B929173D4424DF98CA015864 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF39981DDA60C81E95A4B506A459326 /* Pods-YLJsonLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLJsonLib_Example-resources.sh"; sourceTree = "<group>"; };
@@ -110,17 +112,17 @@
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B0ADA4B14A894A2CC18BD23E76FF76FA /* YLJsonLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLJsonLib.framework; path = YLJsonLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0ADA4B14A894A2CC18BD23E76FF76FA /* YLJsonLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YLJsonLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B90C7BB48342FE0F46B53544B3416F64 /* Pods-YLJsonLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLJsonLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BA6D2A92982EE329CFCC22061C77DA2D /* Pods-YLJsonLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLJsonLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C4647979F2D3452CBB70849BA7112D27 /* Pods-YLJsonLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLJsonLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C495C0E4A600575DE0C79F65B7A413CE /* YLJsonLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLJsonLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C558660802DCBB02C21E69649B382EF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C495C0E4A600575DE0C79F65B7A413CE /* YLJsonLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YLJsonLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C558660802DCBB02C21E69649B382EF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDD840765BC1902C89CF4B0594FD5E47 /* Pods-YLJsonLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLJsonLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D4061929B212AF73FCEDAAD2BAC93B81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D4061929B212AF73FCEDAAD2BAC93B81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D94333606E99E874DDD221E93EC54EC4 /* Pods-YLJsonLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLJsonLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DBFBA96A33C17E28854FC47968D16F39 /* Pods-YLJsonLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLJsonLib_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -209,7 +211,6 @@
 				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -332,6 +333,7 @@
 			children = (
 				451C3EECE9BFED1F7D5D90ECB1FD2F67 /* YLJastor.h */,
 				7AB8EAC921A0E490B5F506D87567BADD /* YLJastor.m */,
+				8F05FF3E206DD4840051B0D4 /* YLJsonLib.h */,
 				0225F3CDA2780DABF3B5543ECEFF0967 /* Pod */,
 				56E1C259097E8ADDBDC6073166749E28 /* Support Files */,
 				003E449D8DEDCC2AF82C111183AFB6D5 /* YYModel */,
@@ -388,6 +390,7 @@
 				257C3E4ECE07EBA3E3D033A6CD3985DC /* NSObject+YYModel.h in Headers */,
 				189FD34CDF3632C503866FA5C80C1BF2 /* YLJastor.h in Headers */,
 				176D6BFC71798CFB99735983A7CB8D19 /* YLJsonLib-umbrella.h in Headers */,
+				8F05FF3F206DD4840051B0D4 /* YLJsonLib.h in Headers */,
 				350176AA7D1FA7C893057FB993EC29F7 /* YYClassInfo.h in Headers */,
 				FC0F683C539E52C5D07F2CBA2D864D6B /* YYModel.h in Headers */,
 			);
