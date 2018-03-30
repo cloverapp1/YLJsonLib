@@ -10,13 +10,13 @@
 
 @interface YLJastor : NSObject<YYModel>
 
-+ (nullable instancetype)modelWithJSON:(id)json;
++ (nullable instancetype)modelWithJSON:(id _Nullable)json;
 
-+ (nullable instancetype)modelWithDictionary:(NSDictionary *)dictionary;
++ (nullable instancetype)modelWithDictionary:(NSDictionary *_Nullable)dictionary;
 
-- (id)initWithDictionary:(NSDictionary *_Nonnull)dictionary;
+- (nullable instancetype)initWithDictionary:(NSDictionary *_Nullable)dictionary;
 
-- (id)initWithJson:(id)json;
+- (nullable instancetype)initWithJson:(id _Nullable )json;
 
 - (NSString *_Nullable)toJsonString;
 

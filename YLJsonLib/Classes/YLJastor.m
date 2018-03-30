@@ -22,12 +22,12 @@
 }
 
 
-- (id)initWithDictionary:(NSDictionary *)dictionary{
-    return [YLJastor yy_modelWithDictionary:dictionary];
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary{
+    return [YLJastor modelWithDictionary:dictionary];
 }
 
-- (id)initWithJson:(id)json{
-    return [YLJastor yy_modelWithJSON:json];
+- (instancetype)initWithJson:(id)json{
+    return [YLJastor modelWithJSON:json];
 }
 
 - (NSString *)toJsonString{
